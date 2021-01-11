@@ -1,0 +1,39 @@
+[
+	{
+		"id": "syc_pneumagat",
+		"looks_like": "ar15",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "green",
+		"name": { "str": "gatling airbow" },
+		"reload_noise_volume": 20,
+		"description": "A pneumatic airbow, with a tiny integrated electric air pump and a crank to keep it charged. Has a set of 8 revolving barrels, each of which can be loaded with a bolt. Is very loud and slow to reload - not recommended with enemies nearby.",
+		"price": 290000,
+		"price_postapoc": 12000,
+		"material": [ "wood", "steel" ],
+		"flags": [ "FIRE_TWOHAND","PRIMITIVE_RANGED_WEAPON" ],
+		"skill": "rifle",
+		"ammo": "bolt",
+		"weight": "3500 g",
+		"volume": "1750 ml",
+		"bashing": 11,
+		"to_hit": 1,
+		"ranged_damage": { "damage_type": "stab", "amount": 60 },
+		"range": 28,
+		"loudness": 9,
+		"dispersion": 300,
+		"durability": 6,
+		"clip_size": 8,
+		"reload": 9000,
+		"valid_mod_locations": [
+			[ "accessories", 4 ],
+			[ "grip", 1 ],
+			[ "mechanism", 4 ],
+			[ "rail", 1 ],
+			[ "sights", 1 ],
+			[ "sling", 1 ],
+			[ "stock", 1 ],
+			[ "underbarrel", 1 ]
+		]
+	}
+]

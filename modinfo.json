@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "scrapheap",
+    "name": "Scrapyard Cataclysm",
+    "authors": [ "JBloodthorn" ],
+    "maintainers": [  ],
+    "description": "Adds weapons and other items inspired by historical and modern day DIYers. ",
+    "category": "items",
+    "dependencies": [ "dda" ],
+    "obsolete": false
+  }
+]
