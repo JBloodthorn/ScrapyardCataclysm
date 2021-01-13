@@ -1,5 +1,5 @@
 [
-		{
+	{
 		"result": "syc_pneumagat",
 		"type": "recipe",
 		"category": "CC_WEAPON",
@@ -22,6 +22,81 @@
       [ [ "motor_tiny", 1 ] ],
       [ [ "hand_crank_charger", 1 ] ]
 		]
-	}
+	},
+  {
+    "type": "recipe",
+    "result": "bolt_pneumatic_metal",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "arrow_metal_sharpened_fletched", 1 ] ],
+      [ [ "scrap", 2 ], [ "nail", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bolt_pneumatic_steel",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "arrow_metal", 1 ] ],
+      [ [ "scrap", 2 ], [ "nail", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bolt_pneumatic_steel_bodkin",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "arrow_metal_bodkin", 1 ] ],
+      [ [ "scrap", 2 ], [ "nail", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bolt_pneumatic_steel_target",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "arrow_metal_target", 1 ] ],
+      [ [ "scrap", 2 ], [ "nail", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bolt_pneumatic_cf",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "arrow_cf", 1 ] ],
+      [ [ "scrap", 2 ], [ "nail", 3 ] ]
+    ]
+  }
 ]
 
