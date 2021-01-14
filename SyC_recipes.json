@@ -97,6 +97,51 @@
       [ [ "arrow_cf", 1 ] ],
       [ [ "scrap", 2 ], [ "nail", 3 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "frisbee",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "2 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+      [ [ "plastic_chunk", 4 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "SyC_nail_frisbee",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "frisbee", 1 ] ],
+      [ [ "nail", 8 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "SyC_zap_frisbee",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "skills_required": [ "electronics", 3 ],
+    "difficulty": 2,
+    "time": "10 m",
+    "autolearn": true,
+    "byproducts": [ [ "scrap", 2 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "SyC_nail_frisbee", 1 ] ],
+      [ [ "tazer", 1 ] ]
+    ]
   }
 ]
 
