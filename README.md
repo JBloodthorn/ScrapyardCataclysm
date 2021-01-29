@@ -3,7 +3,7 @@ A mod for the game Cataclysm: Bright Nights. Items inspired by historical and mo
 
 ## New Weapons:
 
-Gatling Airbow - Does damage equal to a heavy crossbow, but is miniaturized and modernized. Has a rotating set of 8 "barrels" that the arrows slide onto, making it look like an antique pattern gatling gun. Pressure to launch the bolts is provided by a tiny air pump, that is powered by a small crank. Takes a very long time to reload because of the pressurization, and the air pump is very loud while doing so.
+Gatling Airbow - Does damage on par with a heavy crossbow, using air pressure instead of elasticity. Has a rotating set of 8 "barrels" that the arrows slide onto, making it look like an antique pattern gatling gun. Pressure to launch the bolts is provided by a tiny air pump, that is powered by a small crank. Takes a very long time to reload because of the pressurization, and the air pump is very loud while doing so.
 
 Frisbee - Recipe added.
 

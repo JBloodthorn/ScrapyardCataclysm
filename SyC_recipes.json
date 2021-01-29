@@ -138,10 +138,161 @@
     "autolearn": true,
     "byproducts": [ [ "scrap", 2 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
     "components": [
       [ [ "SyC_nail_frisbee", 1 ] ],
       [ [ "tazer", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "SyC_burn_frisbee",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "skills_required": [ "electronics", 3 ],
+    "difficulty": 2,
+    "time": "10 m",
+    "autolearn": true,
+    "byproducts": [ [ "scrap", 2 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "components": [
+      [ [ "SyC_nail_frisbee", 1 ] ],
+      [ [ "glowplug", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "syc_foamdart_revolver",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [ [ "plastic_chunk", 10 ] ],
+			[ [ "scrap", 3 ] ],
+			[ [ "spring", 1 ] ],
+			[ [ "hose", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "SyC_foamdart_standard",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "10 m",
+    "autolearn": true,
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "bat_nerf", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "SyC_foamdart_nail",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+      [ [ "SyC_foamdart_standard", 10 ] ],
+      [ [ "nail", 10 ], [ "combatnail", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "SyC_foamdart_razor",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+      [ [ "SyC_foamdart_standard", 10 ] ],
+      [ [ "razor_blade", 10 ],  [ "scalpel", 10 ], [ "xacto", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "SyC_foamdart_bearing",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+      [ [ "SyC_foamdart_standard", 10 ] ],
+      [ [ "bearing", 10 ] ]
+    ]
+  },
+  {
+  	"type": "recipe",
+    "result": "SyC_eternal_l-stick",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_COMPONENTS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [ "electronics", 7 ],
+    "time": "15 m",
+    "autolearn": true,
+    "reversible": true,
+    "book_learn": [ [ "manual_electronics", 2 ], [ "advanced_electronics", 2 ] ],
+    "using": [ [ "soldering_standard", 15 ] ],
+    "components": [
+      [ [ "RTG_coffee", 1 ] ],
+      [ [ "light_plus_battery_cell", 1 ] ],
+      [ [ "l-stick", 1 ] ],
+      [ [ "scrap", 4 ] ],
+      [ [ "cable", 3 ] ],
+      [ [ "superglue", 1 ] ]
+    ]
+  },
+  {
+  	"type": "recipe",
+    "result": "SyC_eternal_l-halberd",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "time": "25 m",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "soldering_standard", 15 ] ],
+    "components": [
+      [ [ "SyC_eternal_l-stick", 1 ] ],
+      [ [ "halberd", 1 ] ]
+    ]
+  },
+  {
+  	"type": "recipe",
+    "result": "SyC_eternal_l-ji",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "time": "25 m",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "soldering_standard", 15 ] ],
+    "components": [
+      [ [ "SyC_eternal_l-stick", 1 ] ],
+      [ [ "ji", 1 ] ]
+    ]
   }
 ]
+
+
 

@@ -1,0 +1,102 @@
+[
+	{
+    "id": "SyC_eternal_l-stick",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "Eternal L-stick (on)", "str_pl": "Eternal L-sticks (on)" },
+    "description": "Produced by the Light corporation and modified by you, this stylish staff not only functions as a light source, but doubles as a weapon due to the superalloy materials it is made of. Due to proprietary efficiency improvements over standard light sources, the L-stick is apparently capable of being powered by an rtg taken from a Curie-G coffeemaker. It is currently shedding light.",
+    "weight": "5000 g",
+    "volume": "3 L",
+    "price": 5000,
+    "price_postapoc": 3000,
+    "to_hit": 3,
+    "bashing": 32,
+    "material": [ "superalloy", "steel" ],
+    "symbol": "/",
+    "color": "light_green",
+    "techniques": [ "WBLOCK_1", "BRUTAL" ],
+    "use_action": {
+      "target": "SyC_eternal_l-stick_off",
+      "msg": "You close the shutter on the staff and block the light.",
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "LIGHT_300", "DURABLE_MELEE", "TRADER_AVOID", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "LEAK_DAM" ]
+  },
+  {
+    "id": "SyC_eternal_l-stick_off",
+    "copy-from": "SyC_eternal_l-stick",
+    "type": "TOOL",
+    "name": { "str": "L-stick (off)", "str_pl": "L-sticks (off)" },
+    "description": "Produced by the Light corporation and modified by you, this stylish staff not only functions as a light source, but doubles as a weapon due to the superalloy materials it is made of. Due to proprietary efficiency improvements over standard light sources, the L-stick is apparently capable of being powered by an rtg taken from a Curie-G coffeemaker. The staff is currently not emitting light.",
+    "material": [ "superalloy", "steel" ],
+    "use_action": {
+    	"target": "SyC_eternal_l-stick",
+	    "msg": "You open the shutter and allow the staff to light up.",
+	    "menu_text": "Turn on",
+	  	"type": "transform" },
+    "flags": [ "DURABLE_MELEE", "TRADER_AVOID", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "LEAK_DAM" ]
+  },
+  {
+    "id": "SyC_eternal_l-halberd",
+    "copy-from": "SyC_eternal_l-stick",
+    "type": "TOOL",
+    "name": { "str": "L-halberd (on)", "str_pl": "L-halberds (on)" },
+    "description": "Produced by the Light corporation and modified by you, this stylish staff not only functions as a light source, but doubles as a weapon due to the superalloy materials it is made of. A halberd head has been attached, making it an even more versatile weapon. Due to proprietary efficiency improvements over standard light sources, the L-halberd is apparently capable of being powered by an rtg taken from a Curie-G coffeemaker. The staff is currently not emitting light.",
+    "material": [ "superalloy", "steel" ],
+    "extend": { "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL" ]},
+    "bashing": 28,
+    "cutting": 49,
+    "use_action": {
+    	"target": "SyC_eternal_l-halberd_off",
+	    "msg": "You close the shutter on the staff and block the light.",
+	    "menu_text": "Turn off",
+	  	"type": "transform" },
+    "flags": [ "LIGHT_300", "DURABLE_MELEE", "TRADER_AVOID", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "LEAK_DAM" ]
+  },
+  {
+    "id": "SyC_eternal_l-halberd_off",
+    "copy-from": "SyC_eternal_l-halberd",
+    "type": "TOOL",
+    "name": { "str": "L-halberd (off)", "str_pl": "L-halberds (off)" },
+    "description": "Produced by the Light corporation and modified by you, this stylish staff not only functions as a light source, but doubles as a weapon due to the superalloy materials it is made of. A halberd head has been attached, making it an even more versatile weapon. Due to proprietary efficiency improvements over standard light sources, the L-halberd is apparently capable of being powered by an rtg taken from a Curie-G coffeemaker. The staff is currently not emitting light.",
+    "material": [ "superalloy", "steel" ],
+    "use_action": {
+    	"target": "SyC_eternal_l-halberd",
+	    "msg": "You open the shutter and allow the halberd to light up.",
+	    "menu_text": "Turn on",
+	  	"type": "transform" },
+    "flags": [ "DURABLE_MELEE", "TRADER_AVOID", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "LEAK_DAM" ]
+  },
+  {
+    "id": "SyC_eternal_l-ji",
+    "copy-from": "SyC_eternal_l-stick",
+    "type": "TOOL",
+    "name": { "str": "L-ji (on)", "str_pl": "L-jis (on)" },
+    "description": "Produced by the Light corporation and modified by you, this stylish staff not only functions as a light source, but doubles as a weapon due to the superalloy materials it is made of. A ji head has been attached, making it an even more versatile weapon. Due to proprietary efficiency improvements over standard light sources, the L-ji is apparently capable of being powered by an rtg taken from a Curie-G coffeemaker. The staff is currently not emitting light.",
+    "material": [ "superalloy", "steel" ],
+    "extend": { "techniques": [ "WBLOCK_1", "DEF_DISARM", "BRUTAL" ]},
+    "bashing": 19,
+    "cutting": 58,
+    "use_action": {
+    	"target": "SyC_eternal_l-ji_off",
+	    "msg": "You close the shutter and block the light.",
+	    "menu_text": "Turn off",
+	  	"type": "transform" },
+    "flags": [ "LIGHT_300", "DURABLE_MELEE", "TRADER_AVOID", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "LEAK_DAM" ]
+  },
+  {
+    "id": "SyC_eternal_l-ji_off",
+    "copy-from": "SyC_eternal_l-ji",
+    "type": "TOOL",
+    "name": { "str": "L-ji (off)", "str_pl": "L-jis (off)" },
+    "description": "Produced by the Light corporation and modified by you, this stylish staff not only functions as a light source, but doubles as a weapon due to the superalloy materials it is made of. A ji head has been attached, making it an even more versatile weapon. Due to proprietary efficiency improvements over standard light sources, the L-ji is apparently capable of being powered by an rtg taken from a Curie-G coffeemaker. The staff is currently not emitting light.",
+    "material": [ "superalloy", "steel" ],
+    "use_action": {
+    	"target": "SyC_eternal_l-ji",
+	    "msg": "You open the shutter and allow the ji to light up.",
+	    "menu_text": "Turn on",
+	  	"type": "transform" },
+    "flags": [ "DURABLE_MELEE", "TRADER_AVOID", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "LEAK_DAM" ]
+  }
+]
