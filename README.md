@@ -10,3 +10,15 @@ Frisbee - Recipe added.
 Frisbee Spiker - A frisbee with 8 screws sticking out around the rim. Very pointy, but still not heavy enough to do much damage.
 
 Frisbee Zapper - A frisbee spiker with a tazer ineffectively wired to the spikes. Doesn't do much more than tingle.
+
+Foam Dart Revolver - A 6 shot toy pistol that shoots harmless foam darts.
+
+Eternal L-stick - An l-stick with an rtg from a coffeepot duct taped to it. It's heavy and leaks radioactive goo if damaged, but it lights up a decent area forever.
+
+Eternal L-Polearms - An eternal l-stick with the head of a sturdy polearm attached. The added weight (+4.5 kilos) makes the polearms a bit more unweildy, but definitely adds some punch. Halberd and Ji varieties.
+
+## New Ammo:
+
+Pneumatic Bolt - An arrow with the nock cut off and weight added behind the tip. Simple, broadhead, bodkin, small game, and carbon fiber varieties.
+
+Foam Dart - A tiny foam dart with a rubber tip. Standard, nail tip, razor tip, and bearing tip varieties.
